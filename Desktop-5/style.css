@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav style start */
+.navbar .nav-item a{
+    padding: 0 19px !important;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.icons{
+    display: flex;
+}
+
+.icons .lock{
+    padding: 0 19px;   
+}
+
+.icons .fa-solid{
+    color: black;
+}
+
+/* Banner section start */
+
+#banner{
+    background-image: url(images/banner\ \(2\).png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 110px 0;
+}
+
+#banner .banner-content{
+    padding-top: 114px;
+    padding-left: 230px;
+}
+
+#banner .banner-content h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#banner .banner-content p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Section three start */
+#three .box input{
+    padding: 14px 22px;
+    border-radius: 10px;
+    color: #C9C9C9;
+    border: 1px solid #C9C9C9;
+}
+
+#three .box p{
+    font-size: 16px;
+    color: #C9C9C9;
+    font-weight: 400;
+    font-family: "Inter", system-ui;
+}
+
+#three .box .grip{
+    display: flex;
+    gap: 15px;
+    color: #C9C9C9;
+}
+
+#three .box .inp-two{
+    padding: 14px 28px 14px 16px;
+}
+
+/* Section-four start */
+#four{
+    padding: 50px 0;
+}
+
+#four .details{
+    border: 1px solid #C9C9C9;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+#four .details-all{
+    padding-left: 30px;
+  
+}
+
+#four .box .details h4{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Inter", system-ui;
+    border-bottom: 1px solid #C9C9C9;
+    padding: 5px 0;
+
+}
+
+#four .details ul li{
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", system-ui;
+    color: #676767;
+
+}
+
+#four .box .details-two{
+    border: 1px solid #C9C9C9;
+    margin: 40px 0;
+    border-radius: 20px;
+}
+
+#four .box .details-two h4{
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Inter", system-ui;
+    border-bottom: 1px solid #C9C9C9;
+
+}
+
+#four .box .details-three{
+    border: 1px solid #C9C9C9;
+    margin: 40px 0;
+    border-radius: 20px;
+}
+
+
+#four .box .details-three .details-all h4{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Inter", system-ui;
+    border-bottom: 1px solid #C9C9C9;
+    padding: 5px 0;
+
+}
+#four .box .details-three ul li{
+    list-style: circle;
+    font-size: 20px;
+    color: #C9C9C9;
+}
+
+#four .box .details-three ul li .fa-star{
+    color: #FFAE00;
+}
+
+#four .box .details-four .four-all h4{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Inter", system-ui;
+}
+
+#four .box .details-four .orange{
+    display: flex;
+    justify-content: space-between;
+}
+
+#four .box .details-four .orange .four-describe h5{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Inter", system-ui;
+}
+
+#four .box .details-four .orange .four-describe .rate .fa-star{
+    color: #FFAE00;
+}
+
+#four .box .details-four .orange .four-describe p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", system-ui;
+    padding-top: 10px;
+}
+
+
+#four .box .details-five .rows{
+    gap: 15px;
+}
+
+#four .box .details-five .one-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+#four .box .details-five .one-row .apple{
+    border: 1px solid #C9C9C9;
+    padding: 6px 19px;
+    border-radius: 10px;
+}
+
+#four .box .details-five .one-row .apple p{
+    color: #676767;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", system-ui;
+    
+}
+/* Section-five start */
+
+#footer{
+    padding: 50px 0;
+    background-color: #373C33;
+}
+
+#footer .details{
+    color: #C9C9C9;
+}
+
+
+#footer .details h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Inter", system-ui;
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+#footer .details p{
+    font-family: "Inter", system-ui;
+    font-size: 16px;
+    font-weight: 400;
+}
+#footer .org{
+    color: #C9C9C9;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#footer .org .icon{
+    padding: 17px;
+    border-radius: 50%;
+    background-color: #477018;
+
+}
+
+#footer .details input{
+    padding: 14px 20px;
+    border-radius: 10px;
+}
+
+#footer .details button{
+    padding: 14px;
+    border-radius: 10px;
+    background-color: #F47606;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}

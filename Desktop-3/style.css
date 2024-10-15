@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav style start */
+.navbar .nav-item a{
+    padding: 0 19px !important;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.icons{
+    display: flex;
+}
+
+.icons .lock{
+    padding: 0 19px;   
+}
+
+.icons .fa-solid{
+    color: black;
+}
+
+/* Banner-part start */
+
+#banner{
+    background-image: url(Images/desk-3-banner.png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 110px 0;
+}
+
+#banner .banner-content{
+    padding-top: 114px;
+    padding-left: 230px;
+}
+
+#banner .banner-content h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#banner .banner-content p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* Another */
+#another img{
+    width: 100%;
+}
+
+/* About us section */
+
+#about-us .box-details .words{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    color: #676767;
+}
+
+#about-us .box-details .good-people{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Inter", serif;
+    color: #282828;
+    padding: 30px 0;
+}
+
+#about-us .box-details .natural{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    color: #676767;
+}
+
+#about-us .box-details .founder{
+    display: flex;
+    gap: 25px;
+    padding: 30px 0;
+}
+
+#about-us .box-details .founder .title h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+}
+
+#about-us .box-details .founder .title p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    color: #676767;
+}
+
+/* Why-us section */
+
+#why-us{
+    padding: 100px 0;
+}
+
+#why-us .box-details .why{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    color: #676767;
+}
+
+#why-us .box-details .different{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Inter", serif;
+    color: #282828;
+    padding: 20px 0;
+}
+
+#why-us .box-details .natural{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    color: #676767;
+}
+
+
+/* Different-section start */
+
+#different{
+    padding: 50px 0;
+}
+
+#different .box-details .link{
+    padding: 50px 0;
+}
+
+#different .box-details a{
+    padding: 20px 70px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #F47606;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    
+}
+
+#different .box-details .firm{
+    color: #676767;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+}
+
+#different .box-details-two .percent{
+    color: #676767;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+}
+
+#different .box-details-two .what{
+    color: #282828;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Inter", serif;
+    padding: 20px 0;
+}
+
+#different .box-details-two .description{
+    color: #676767;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+}
+
+#different .box-details-two ul{
+    padding: 20px 0;
+}
+
+
+#different .box-details-two ul li{
+    color: #676767;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    padding: 10px 0;
+}
+
+/* Testimonial section start */
+
+#testimonial{
+    padding: 50px 0;
+}
+
+#testimonial .see-all{
+    display: flex;
+    justify-content: space-between;
+}
+
+#testimonial .see-all .heading h5{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Inter", serif;
+}
+
+
+#testimonial .see-all .all a{
+    text-decoration: none;
+    color: #676767;
+}
+
+#testimonial .see-all .all .fa-arrow-right{
+    color: #676767;
+    padding-left: 10px;
+}
+    
+
+
+#testimonial .box-left .box-left-details{
+    border: 1px solid #C9C9C9;
+    padding: 76px 46px;
+    border-radius: 10px;
+}
+
+#testimonial .box-left .box-left-details .lorem{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    color: #676767;
+    padding: 30px 0;
+}
+
+#testimonial .box-left .box-left-details .designer{
+    display: flex;
+    gap: 20px;
+}
+
+#testimonial .box-right{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#testimonial .box-details-two{
+    border: 1px solid #C9C9C9;
+    padding: 36px 46px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#testimonial .box-details-two .web-designer{
+    display: flex;
+    gap: 20px;
+}
+
+#testimonial .box-details-two .flora p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    color: #676767;
+}
+
+#testimonial .box-details-two .emma p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    color: #676767;
+}
+
+#testimonial .box-details-two .flora .img{
+    position: absolute;
+    right: 33px;
+    top: 70%;
+}
+
+#testimonial .box-details-two .emma .img{
+    position: absolute;
+    right: 33px;
+    top: 70%;
+}
+
+/* Blog-section start */
+
+#blog{
+    padding: 50px 0;
+}
+
+#blog .headline{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+#blog .box-details .box-img img{
+    width: 100%;
+}
+
+#blog .headline h4{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Inter", serif;
+}
+
+#blog .box-details-all .blog-icons{
+    display: flex;
+    gap: 24px;
+    color: #676767;
+    padding: 23px 0;
+}
+
+#blog .box-details-all .blog-icons span{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+
+}
+
+#blog .box-details-all h4{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+}
+
+#blog .box-details-all .line{
+    border: 0.5px solid #C9C9C9;
+    margin: 30px 0;
+}
+
+#blog .box-details-all .date{
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog .box-details-all .date .calender{
+    color: #676767;
+}
+
+#blog .box-details-all .date span a{
+    color: #676767;
+    margin-left: 5px;
+}
+
+#blog .box-details-all .date .read a{
+    text-decoration: none;
+    color: #F47606;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+}
+
+/* Footer-section start */
+
+#nine{
+    padding: 50px 0;
+    background-color: #373C33;
+}
+
+#nine .box img{
+    padding: 10px 0;
+}
+
+#nine .box p{
+    color: #FFFFFFCC;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", system-ui;   
+}
+
+#nine .box h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Inter", system-ui;
+}
+
+#nine .box input{
+    padding: 14px 22px;
+    border-radius: 10px;
+    border:1px solid  #C9C9C9;
+}
+
+#nine .box button{
+    padding: 14px 28px;
+    border: none;
+    background-color: #F47606;
+    border-radius: 10px;
+}
+
+
+
